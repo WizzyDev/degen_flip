@@ -74,7 +74,7 @@ export const TOKENLIST = [
     symbol: "USDC",
     image:
       "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
-    decimals: 9,
+    decimals: 6,
     baseWager: 0.01e9,
   },
   // GUAC
@@ -117,10 +117,10 @@ export const TOKENLIST = [
   },
   // W
   {
-    mint: new PublicKey("85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ"),
-    name: "Wormhole",
-    symbol: "W",
-    image: "https://wormhole.com/token.png",
+    mint: new PublicKey("2Ey5sa3XTtjaR6KGaVmX48MUtUAmrBT14JeWjQWJcc4h"),
+    name: "User Generated Money",
+    symbol: "UGW",
+    image: "https://ipfs.io/ipfs/QmNuaQUJHG7h4njrC7isz5mbxnVxccFMrmw3uuLrNNTo6F",
     decimals: 6,
     baseWager: 1e6,
   },
