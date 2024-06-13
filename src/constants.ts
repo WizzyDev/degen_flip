@@ -21,14 +21,14 @@ export const BASE_SEO_CONFIG = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://degen-flip-pkb4wi5wu-wizzys-projects.vercel.app/",
+    url: "https://gamba-degen-flip.vercel.app/",
     title: "Degen Flip",
     description:
       "The gambleFi protocol on-chain degeneracy for Solana.",
     images: [
       {
         url: "https://gamba-degen-flip.vercel.app/seo.png",
-        alt: "Degen Flip",
+        alt: "Gamba Degen Flip",
       },
     ],
     site_name: "Degen Flip",
