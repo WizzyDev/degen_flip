@@ -53,8 +53,8 @@ export function useDisclaimer() {
               responsibly; seek help if needed.
             </li>
             <li className="text-lg">
-              <span className="font-bold">6. Disclaimer:</span> Gamba is not a
-              casino; Gamba provides a decentralized gambleFi protocol for
+              <span className="font-bold">6. Disclaimer:</span> FLIP is not a
+              casino; FLIP provides a decentralized gambleFi protocol for
               on-chain degeneracy.
             </li>
           </ol>

@@ -21,14 +21,14 @@ export const BASE_SEO_CONFIG = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://gamba-degen-flip.vercel.app/",
+    url: "https://degen-flip-pkb4wi5wu-wizzys-projects.vercel.app/",
     title: "Degen Flip",
     description:
       "The gambleFi protocol on-chain degeneracy for Solana.",
     images: [
       {
         url: "https://gamba-degen-flip.vercel.app/seo.png",
-        alt: "Gamba Degen Flip",
+        alt: "Degen Flip",
       },
     ],
     site_name: "Degen Flip",
@@ -77,8 +77,17 @@ export const TOKENLIST = [
     decimals: 6,
     baseWager: 0.01e9,
   },
-  // GUAC
+  // UGW
   {
+    mint: new PublicKey("2Ey5sa3XTtjaR6KGaVmX48MUtUAmrBT14JeWjQWJcc4h"),
+    name: "User Generated Money",
+    symbol: "UGW",
+    image: "https://ipfs.io/ipfs/QmNuaQUJHG7h4njrC7isz5mbxnVxccFMrmw3uuLrNNTo6F",
+    decimals: 6,
+    baseWager: 1e6,
+  },
+  // GUAC
+  /*{
     mint: new PublicKey("AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"),
     name: "Guacamole",
     symbol: "GUAC",
@@ -86,16 +95,16 @@ export const TOKENLIST = [
       "https://bafkreiccbqs4jty2yjvuxp5x7gzgepquvv657ttauaqgxfhxghuz5us54u.ipfs.nftstorage.link/",
     decimals: 5,
     baseWager: 2000000e5,
-  },
+  },*/
   // JUP
-  {
+  /*{
     mint: new PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"),
     name: "Jupiter",
     symbol: "JUP",
     image: "https://static.jup.ag/jup/icon.png",
     decimals: 6,
     baseWager: 1e6,
-  },
+  },*/
   // BONK
   {
     mint: new PublicKey("DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"),
@@ -106,7 +115,7 @@ export const TOKENLIST = [
     baseWager: 100000e5,
   },
   // FRONK
-  {
+  /*{
     mint: new PublicKey("5yxNbU8DgYJZNi3mPD9rs4XLh9ckXrhPjJ5VCujUWg5H"),
     name: "Fronk",
     symbol: "FRONK",
@@ -114,14 +123,6 @@ export const TOKENLIST = [
       "https://shdw-drive.genesysgo.net/8tfWzweVe7MAfi8qwiKFnzLq6wuLT7WAPMoQC7DH47Fq/fronk.png",
     decimals: 5,
     baseWager: 20000000e5,
-  },
-  // W
-  {
-    mint: new PublicKey("2Ey5sa3XTtjaR6KGaVmX48MUtUAmrBT14JeWjQWJcc4h"),
-    name: "User Generated Money",
-    symbol: "UGW",
-    image: "https://ipfs.io/ipfs/QmNuaQUJHG7h4njrC7isz5mbxnVxccFMrmw3uuLrNNTo6F",
-    decimals: 6,
-    baseWager: 1e6,
-  },
+  },*/
+  
 ];
